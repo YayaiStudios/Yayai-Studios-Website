@@ -47,7 +47,7 @@ body {
     color: black;
 }
 
-/* written my me without a tutorial */
+/* main site */
 
 .discord-button {
     background-color: #5865F2;
@@ -60,6 +60,10 @@ body {
     font-size: 20px;
     margin: 15px 15px;
     cursor: pointer;
+  }
+
+  .discord-button:onmousedown {
+      
   }
 
 .twitter-button {
@@ -75,6 +79,7 @@ body {
     cursor: pointer;
   }
 
+
   .explain-text-1 {
       padding: 20px;
   }
@@ -83,7 +88,7 @@ body {
       padding: 20px;
   }
 
-/* Main Images */
+/* ref code */
 
 .portfolio-items-wrapper {
     display: grid;
