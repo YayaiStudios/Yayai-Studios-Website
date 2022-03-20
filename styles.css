@@ -62,10 +62,6 @@ body {
     cursor: pointer;
   }
 
-  .discord-button:onmousedown {
-      
-  }
-
 .twitter-button {
     background-color: #00acee;
     border: none;
