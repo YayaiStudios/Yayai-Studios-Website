@@ -47,7 +47,43 @@ body {
     color: black;
 }
 
-/* portfolio styles */
+/* written my me without a tutorial */
+
+.discord-button {
+    background-color: #5865F2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 15px;
+    cursor: pointer;
+  }
+
+.twitter-button {
+    background-color: #00acee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 15px;
+    cursor: pointer;
+  }
+
+  .explain-text-1 {
+      padding: 20px;
+  }
+
+  .hi-text {
+      padding: 20px;
+  }
+
+/* Main Images */
 
 .portfolio-items-wrapper {
     display: grid;
@@ -100,5 +136,6 @@ body {
     transition: 1s;
     filter: brightness(10%);
 }
+
 
 
