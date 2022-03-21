@@ -2,7 +2,7 @@
 
 body {
     margin: 0px;
-    font-family: Inter;
+    --transition_time: 0.3s;
 }
 
 .container {
@@ -31,51 +31,113 @@ body {
 .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px;
-    transition: border-bottom 0.5s;
+    transition: border-bottom var(--transition_time);
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: #191970;
     text-decoration: none;
-    transition: colour 0.5s;
+    transition: colour var(--transition_time);
 }
 
 .nav-link-wrapper:hover {
     border-bottom: 1px solid black;
+    transition: colour var(--transition_time);
 }
 
 .nav-link-wrapper a:hover {
-    color: black;
+    transition: var(--transition_time);
+    color: #f80000
 }
 
-/* main site */
+.brand > div {
+    transition: var(--transition_time);
+    color: #191970;
+}
 
-.discord-button {
-    background-color: #5865F2;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 15px 15px;
-    cursor: pointer;
+.brand > div:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+/* about.html styles */
+
+  /* about the team */
+
+  .our-team-wrapper a {
+      text-decoration: none;
+      transition: var(--transition_time);
+      color: #191970;
   }
 
-.twitter-button {
-    background-color: #00acee;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 15px 15px;
-    cursor: pointer;
+  .our-team-wrapper a:hover {
+      transition: var(--transition_time);
+      color: #f80000;
   }
 
+ /* changing colors of names */
+
+ /* Kingerious */
+
+.kingerious {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.kingerious:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+/* daisy */
+
+.daisy {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.daisy:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+/* mac */
+
+.mac {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.mac:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.monki {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.monki:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.niceygy {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.niceygy:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.our-team-wrapper {
+    position: inherit;
+}
+
+/* texts in index.html and about.html */
 
   .explain-text-1 {
       padding: 20px;
@@ -94,16 +156,14 @@ body {
   .our-team-members {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 50px;
-  }
-
-  .profile-img-wrapper {
-      float: right;
+      padding: 0px;
   }
 
   .our-team-text {
       padding: 50px;
   }
+
+  /* cards */
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -122,11 +182,12 @@ body {
 
   .follow-link-wrapper a {
       text-decoration: none;
-      transition: 0.5s;
+      transition: var(--transition_time);
       color: #191970;
   }
 
   .follow-link-wrapper a:hover {
+      transition: var(--transition_time);
     color: #f80000;
   }
 
@@ -135,24 +196,25 @@ body {
   }
 
   .explain-text-1:hover {
-    transition: 0.5s;
+    transition: var(--transition_time);
     color: #f80000;
   }
 
   .about-our-discord-text a{
     text-decoration: none;
+    transition: var(--transition_time);
     color: #191970;
   }
 
   .about-our-discord-text a:hover {
-    transition: 0.5s;
+    transition: var(--transition_time);
     color: #f80000;
   }
 
 .cards-wrapper {
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .twitter-handle {
