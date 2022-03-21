@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    font-family: Inter;
 }
 
 .container {
@@ -78,13 +79,89 @@ body {
 
   .explain-text-1 {
       padding: 20px;
+      color: rgb(49, 49, 49);
   }
+
+  .explain-text-1:hover{
+      color: black;
+  }
+
 
   .hi-text {
       padding: 20px;
   }
 
-/* ref code */
+  .our-team-members {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding: 50px;
+  }
+
+  .profile-img-wrapper {
+      float: right;
+  }
+
+  .our-team-text {
+      padding: 50px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: fit-content;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .follow-link-wrapper a {
+      text-decoration: none;
+      transition: 0.5s;
+      color: #191970;
+  }
+
+  .follow-link-wrapper a:hover {
+    color: #f80000;
+  }
+
+  .explain-text-1 {
+    color: #191970;
+  }
+
+  .explain-text-1:hover {
+    transition: 0.5s;
+    color: #f80000;
+  }
+
+  .about-our-discord-text a{
+    text-decoration: none;
+    color: #191970;
+  }
+
+  .about-our-discord-text a:hover {
+    transition: 0.5s;
+    color: #f80000;
+  }
+
+.cards-wrapper {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.twitter-handle {
+    padding: 20px;
+}
+
+
+
+/* ref code 
 
 .portfolio-items-wrapper {
     display: grid;
@@ -137,6 +214,6 @@ body {
     transition: 1s;
     filter: brightness(10%);
 }
-
+                          */
 
 
