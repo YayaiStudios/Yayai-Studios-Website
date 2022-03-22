@@ -141,11 +141,13 @@ body {
 
   .explain-text-1 {
       padding: 20px;
-      color: rgb(49, 49, 49);
+      transition: var(--transition_time);
+      color: #191970;
   }
 
   .explain-text-1:hover{
-      color: black;
+      transition: var(--transition_time);
+      color: #f80000;
   }
 
 
@@ -187,11 +189,12 @@ body {
   }
 
   .follow-link-wrapper a:hover {
-      transition: var(--transition_time);
+    transition: var(--transition_time);
     color: #f80000;
   }
 
   .explain-text-1 {
+    transition: var(--transition_time);
     color: #191970;
   }
 
@@ -220,6 +223,15 @@ body {
 .twitter-handle {
     padding: 20px;
 }
+
+.social-media-widgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* contact.html */
+
+/* form */
 
 
 
