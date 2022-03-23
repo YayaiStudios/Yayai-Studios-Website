@@ -233,7 +233,21 @@ body {
 
 /* form */
 
+.form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    width: fit-content;
+    height: auto;
+    padding: 20px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
 
+.contact-text {
+    padding: 20px;
+    padding-left: 100px;
+}
 
 /* ref code 
 
