@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/MDxWARRIORxOP/Yayai-Studios-Website#readme",
   "dependencies": {
-    "firebase": "^9.6.9"
+    "dotenv": "^16.0.0"
   }
 }

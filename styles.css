@@ -10,6 +10,7 @@ body {
     grid-template-columns: 1fr;
 }
 
+
 /* nav styles */
 
 .nav-wrapper {
@@ -22,7 +23,7 @@ body {
     display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.nav-wrapper>.left-side>div {
     margin-right: 20px;
     font-size: 0.98em;
     text-transform: uppercase;
@@ -50,34 +51,38 @@ body {
     color: #f80000
 }
 
-.brand > div {
+.brand>div {
     transition: var(--transition_time);
     color: #191970;
 }
 
-.brand > div:hover {
+.brand>div:hover {
     transition: var(--transition_time);
     color: #f80000;
 }
 
+
 /* about.html styles */
 
-  /* about the team */
 
-  .our-team-wrapper a {
-      text-decoration: none;
-      transition: var(--transition_time);
-      color: #191970;
-  }
+/* about the team */
 
-  .our-team-wrapper a:hover {
-      transition: var(--transition_time);
-      color: #f80000;
-  }
+.our-team-wrapper a {
+    text-decoration: none;
+    transition: var(--transition_time);
+    color: #191970;
+}
 
- /* changing colors of names */
+.our-team-wrapper a:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
 
- /* Kingerious */
+
+/* changing colors of names */
+
+
+/* Kingerious */
 
 .kingerious {
     transition: var(--transition_time);
@@ -88,6 +93,7 @@ body {
     transition: var(--transition_time);
     color: #f80000;
 }
+
 
 /* daisy */
 
@@ -100,6 +106,7 @@ body {
     transition: var(--transition_time);
     color: #f80000;
 }
+
 
 /* mac */
 
@@ -137,82 +144,83 @@ body {
     position: inherit;
 }
 
+
 /* texts in index.html and about.html */
 
-  .explain-text-1 {
-      padding: 20px;
-      transition: var(--transition_time);
-      color: #191970;
-  }
+.explain-text-1 {
+    padding: 20px;
+    transition: var(--transition_time);
+    color: #191970;
+}
 
-  .explain-text-1:hover{
-      transition: var(--transition_time);
-      color: #f80000;
-  }
+.explain-text-1:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.hi-text {
+    padding: 20px;
+}
+
+.our-team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0px;
+}
+
+.our-team-text {
+    padding: 50px;
+}
 
 
-  .hi-text {
-      padding: 20px;
-  }
+/* cards */
 
-  .our-team-members {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 0px;
-  }
-
-  .our-team-text {
-      padding: 50px;
-  }
-
-  /* cards */
-
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 40%;
     height: fit-content;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
     padding: 2px 16px;
-  }
+}
 
-  .follow-link-wrapper a {
-      text-decoration: none;
-      transition: var(--transition_time);
-      color: #191970;
-  }
-
-  .follow-link-wrapper a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
-  }
-
-  .explain-text-1 {
-    transition: var(--transition_time);
-    color: #191970;
-  }
-
-  .explain-text-1:hover {
-    transition: var(--transition_time);
-    color: #f80000;
-  }
-
-  .about-our-discord-text a{
+.follow-link-wrapper a {
     text-decoration: none;
     transition: var(--transition_time);
     color: #191970;
-  }
+}
 
-  .about-our-discord-text a:hover {
+.follow-link-wrapper a:hover {
     transition: var(--transition_time);
     color: #f80000;
-  }
+}
+
+.explain-text-1 {
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.explain-text-1:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.about-our-discord-text a {
+    text-decoration: none;
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.about-our-discord-text a:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
 
 .cards-wrapper {
     padding: 20px;
@@ -229,11 +237,13 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+
 /* contact.html */
+
 
 /* form */
 
-.form {
+.contact-form {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
@@ -241,13 +251,14 @@ body {
     height: auto;
     padding: 20px;
     padding-left: 250px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .contact-text {
     padding: 20px;
     padding-left: 100px;
 }
+
 
 /* ref code 
 
@@ -303,5 +314,3 @@ body {
     filter: brightness(10%);
 }
                           */
-
-
