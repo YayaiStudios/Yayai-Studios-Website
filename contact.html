@@ -46,17 +46,18 @@
         <div class="content-wrapper">
             <h1 class="contact-text">Contact Page</h1>
 
-            <form action="https://formsubmit.co/kingerious@yayaistudios.tk" method="POST" class="contact-form">
-                <label for="name"><b>Name</b></label>
-                <input type="text" name="name" placeholder="Name" id="contact-name" required>
-                <label for="email"><b>Email</b></label>
-                <input type="email" name="email" placeholder="Email" id="contact-email" required>
-                <label for="message"><b>Message</b></label>
-                <textarea name="message" id="contact-message" cols="30" rows="7" placeholder="your message" required></textarea> 
+            <form class="contact-form" action="https://formsubmit.co/kingerious@circel.co" method="POST">
+                <label for="name"><b>Name</b><b style="color: red;">*</b></label>
+                <input type="text" name="name" placeholder="Kingerious" id="contact-name" required>
+                <label for="email"><b>Email</b><b style="color: red;">*</b></label>
+                <input type="email" name="email" placeholder="you@email.com" id="contact-email" required>
+                <label for="message"><b>Message</b><b style="color: red;">*</b></label>
+                <textarea name="message" id="contact-message" cols="30" rows="7"
+                    placeholder="im having an issue with..." required></textarea>
                 <input type="hidden" name="_next" value="https://yayaistudios.tk/thankyou">
-                <input type="hidden" name="_cc" value="mac@yayaistudios.tk, monki@yayaistudios.tk, niceygy@yayaistudios.tk">
-                <input type="hidden" name="_webhook" value="https://discord.com/api/webhooks/956499654315495504/i8kd3shBql5JHr0rAjqXSgKau121JXt0scT6GwnMJFqe3g-QW2trFu54eWFxxKgJwJIf">
-                <button type="submit">Submit</button>
+                <input type="hidden" name="_cc"
+                    value="mohammedsiddiqui2009@gmail.com, macauly.parsons69@gmail.com, nceygy01@gmail.com">
+                <button type="submit" onclick="send()">Submit</button>
             </form>
         </div>
         <div>

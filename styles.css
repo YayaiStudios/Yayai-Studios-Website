@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     --transition_time: 0.3s;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 
 .container {
@@ -246,7 +247,7 @@ body {
 .contact-form {
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 20px;
+    grid-gap: 10px;
     width: fit-content;
     height: auto;
     padding: 20px;
