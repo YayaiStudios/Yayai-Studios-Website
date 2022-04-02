@@ -202,6 +202,8 @@ body {
     color: #f80000;
 }
 
+
+
 .explain-text-1 {
     transition: var(--transition_time);
     color: #191970;
@@ -258,6 +260,34 @@ body {
 .contact-text {
     padding: 20px;
     padding-left: 100px;
+}
+
+/* games.html */
+
+/* cards */
+
+/* entity */
+
+.Game-Link-Wrapper a {
+    text-decoration: none;
+    transition: var(--transition_time);
+    color:#191970;
+}
+
+.Game-Link-Wrapper a:hover {
+    transition: var(--transition_time);
+    color: #f80000;
+}
+
+.container a {
+    text-decoration: none;
+    transition: var(--transition_time);
+    color: #191970;
+}
+
+.container a:hover {
+    transition: var(--transition_time);
+    color: #f80000;
 }
 
 
