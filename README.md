@@ -1,2 +1,2 @@
 # Yayai-Studios-Website
-This is the code for official website of Yayai Studios.
+code for the official Yayai Studios website.
