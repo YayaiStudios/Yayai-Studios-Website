@@ -290,58 +290,15 @@ body {
     color: #f80000;
 }
 
+/* entity.html */
 
-/* ref code 
-
-.portfolio-items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.iframe-entity {
+    display: block;
+    padding: 0px;
+    margin: 0px;
 }
 
-.portfolio-item-wrapper {
-    position: relative;
+.nav-wrapper {
+    display: block;
+    padding: 20px;
 }
-
-.portfollio-img-background {
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    
-}
-
-.logo-wrapper img {
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-.img-text-wrapper .subtitle {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-}
-
-.img-text-wrapper:hover .subtitle {
-    font-weight: 600;
-    color: lightseagreen;
-}
-
-.img-darken {
-    transition: 1s;
-    filter: brightness(10%);
-}
-                          */

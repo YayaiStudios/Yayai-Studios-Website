@@ -17,7 +17,5 @@
     "url": "https://github.com/MDxWARRIORxOP/Yayai-Studios-Website/issues"
   },
   "homepage": "https://github.com/MDxWARRIORxOP/Yayai-Studios-Website#readme",
-  "dependencies": {
-    "dotenv": "^16.0.0"
-  }
+  "dependencies": {}
 }
