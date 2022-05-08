@@ -1,265 +1,253 @@
 /* main styles */
 
 body {
-    margin: 0px;
-    --transition_time: 0.3s;
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  margin: 0px;
+  --transition_time: 0.3s;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-
 
 /* nav styles */
 
 .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
 }
 
 .left-side {
-    display: flex;
+  display: flex;
 }
 
-.nav-wrapper>.left-side>div {
-    margin-right: 20px;
-    font-size: 0.98em;
-    text-transform: uppercase;
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.98em;
+  text-transform: uppercase;
 }
 
 .nav-link-wrapper {
-    height: 22px;
-    border-bottom: 1px;
-    transition: border-bottom var(--transition_time);
+  height: 22px;
+  border-bottom: 1px;
+  transition: border-bottom var(--transition_time);
 }
 
 .nav-link-wrapper a {
-    color: #191970;
-    text-decoration: none;
-    transition: colour var(--transition_time);
+  color: #191970;
+  text-decoration: none;
+  transition: colour var(--transition_time);
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
-    transition: colour var(--transition_time);
+  border-bottom: 1px solid black;
+  transition: colour var(--transition_time);
 }
 
 .nav-link-wrapper a:hover {
-    transition: var(--transition_time);
-    color: #f80000
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
-.brand>div {
-    transition: var(--transition_time);
-    color: #191970;
+.brand > div {
+  transition: var(--transition_time);
+  color: #191970;
 }
 
-.brand>div:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+.brand > div:hover {
+  transition: var(--transition_time);
+  color: #f80000;
 }
-
 
 /* about.html styles */
-
 
 /* about the team */
 
 .our-team-wrapper a {
-    text-decoration: none;
-    transition: var(--transition_time);
-    color: #191970;
+  text-decoration: none;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .our-team-wrapper a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
-
 /* changing colors of names */
-
 
 /* Kingerious */
 
 .kingerious {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .kingerious:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
-
 
 /* daisy */
 
 .daisy {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .daisy:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
-
 
 /* mac */
 
 .mac {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .mac:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .monki {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .monki:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .niceygy {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .niceygy:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .our-team-wrapper {
-    position: inherit;
+  position: inherit;
 }
-
 
 /* texts in index.html and about.html */
 
 .explain-text-1 {
-    padding: 20px;
-    transition: var(--transition_time);
-    color: #191970;
+  padding: 20px;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .explain-text-1:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .hi-text {
-    padding: 20px;
+  padding: 20px;
 }
 
 .our-team-members {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0px;
 }
 
 .our-team-text {
-    padding: 50px;
+  padding: 50px;
 }
-
 
 /* cards */
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 40%;
-    height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  height: fit-content;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
 
 .follow-link-wrapper a {
-    text-decoration: none;
-    transition: var(--transition_time);
-    color: #191970;
+  text-decoration: none;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .follow-link-wrapper a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
-
-
 .explain-text-1 {
-    transition: var(--transition_time);
-    color: #191970;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .explain-text-1:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .about-our-discord-text a {
-    text-decoration: none;
-    transition: var(--transition_time);
-    color: #191970;
+  text-decoration: none;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .about-our-discord-text a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .cards-wrapper {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .twitter-handle {
-    padding: 20px;
+  padding: 20px;
 }
 
 .social-media-widgets {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-
 /* contact.html */
-
 
 /* form */
 
 .contact-form {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    width: fit-content;
-    height: auto;
-    padding: 20px;
-    padding-left: 250px;
-    padding-top: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  width: fit-content;
+  height: auto;
+  padding: 20px;
+  padding-left: 250px;
+  padding-top: 10px;
 }
 
 .contact-text {
-    padding: 20px;
-    padding-left: 100px;
+  padding: 20px;
+  padding-left: 100px;
 }
 
 /* games.html */
@@ -269,36 +257,36 @@ body {
 /* entity */
 
 .Game-Link-Wrapper a {
-    text-decoration: none;
-    transition: var(--transition_time);
-    color:#191970;
+  text-decoration: none;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .Game-Link-Wrapper a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 .container a {
-    text-decoration: none;
-    transition: var(--transition_time);
-    color: #191970;
+  text-decoration: none;
+  transition: var(--transition_time);
+  color: #191970;
 }
 
 .container a:hover {
-    transition: var(--transition_time);
-    color: #f80000;
+  transition: var(--transition_time);
+  color: #f80000;
 }
 
 /* entity.html */
 
 .iframe-entity {
-    display: block;
-    padding: 0px;
-    margin: 0px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
 }
 
 .nav-wrapper {
-    display: block;
-    padding: 20px;
+  display: block;
+  padding: 20px;
 }
