@@ -1,3 +1,3 @@
 # Yayai-Studios-Website
 
-The Official Yayai Studios website.
+The Official Yayai Studios Website.
