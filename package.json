@@ -1,21 +1,18 @@
 {
-  "name": "Yayai-Studios-Website",
-  "version": "1.0.0",
-  "description": "This is the code for official website of Yayai Studios.",
-  "main": "index.js",
+  "name": "yayai-studios-website",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MDxWARRIORxOP/Yayai-Studios-Website.git"
-  },
-  "keywords": [],
-  "author": "Yayai Studios",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MDxWARRIORxOP/Yayai-Studios-Website/issues"
-  },
-  "homepage": "https://github.com/MDxWARRIORxOP/Yayai-Studios-Website#readme",
-  "dependencies": {}
+  "dependencies": {
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
