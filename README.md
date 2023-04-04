@@ -1,2 +1,3 @@
 # Yayai-Studios-Website
-code for the official Yayai Studios website.
+
+The Official Yayai Studios Website.
