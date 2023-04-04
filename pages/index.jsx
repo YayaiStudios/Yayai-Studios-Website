@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Styles from "@/styles/Home.module.css";
+
+function easter() {}
 
 export default function Home() {
   return (
@@ -8,16 +11,16 @@ export default function Home() {
       <Head>
         <title>Yayai Studios | Home</title>
       </Head>
-      <div className="container">
+      <div className={Styles.container}>
         <nav>
-          <div className="left">
+          <div className={Styles.left}>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
           </div>
-          <div className="right">
+          <div className={Styles.right}>
             <Image
-              className="multiclick"
+              onClick={easter}
               src="/logo.png"
               alt="Yayai Studios"
               width={50}
@@ -26,12 +29,12 @@ export default function Home() {
           </div>
         </nav>
         <main>
-          <div className="main-grid">
-            <h1 className="main-heading">
+          <div className={Styles.main_grid}>
+            <h1 className={Styles.main_heading}>
               Here&#39;s whats going on at{" "}
-              <span className="name">YAYAI STUDIOS.</span>
+              <span className={Styles.name}>YAYAI STUDIOS.</span>
             </h1>
-            <div className="card">
+            <div className={Styles.card}>
               <h2>Official Twitter</h2>
               <p>
                 make sure you follow us{" "}
@@ -42,7 +45,7 @@ export default function Home() {
                 for latest news, updates and spoilers.
               </p>
             </div>
-            <div className="card">
+            <div className={Styles.card}>
               <h2>Official Discord</h2>
               <p>
                 Join our{" "}
@@ -51,7 +54,7 @@ export default function Home() {
                 for news and updates directly through discord!
               </p>
             </div>
-            <div className="card">
+            <div className={Styles.card}>
               <h2>About Us</h2>
               <p>
                 Get to know us more by checking out our <br /> new{" "}
