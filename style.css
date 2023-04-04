@@ -35,7 +35,8 @@ p {
 }
 
 a {
-  color: rgb(1, 117, 224);
+  transition: 0.5s color;
+  color: #8c52ff;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -43,7 +44,7 @@ a {
 
 a:hover {
   transition: 0.3s;
-  color: red;
+  color: #ffde59;
 }
 
 nav {
@@ -61,11 +62,10 @@ nav {
   margin: 25px;
 }
 
-
 .left > a:hover {
   border-bottom: 3px solid #36393f;
   transition: 0.3s color;
-  color: red;
+  color: #ffde59;
 }
 
 .right {
@@ -82,15 +82,19 @@ nav {
 }
 
 .main-heading {
-  color: blue;
   /* width: min-content; */
   height: min-content;
   margin-left: 50px;
 }
 
-.main-heading:hover > span {
+.main-heading > .name {
   transition: 0.5s color;
-  color: rgb(87, 27, 27);
+  color: #8c52ff;
+}
+
+.name:hover {
+  transition: 0.5s color;
+  color: #ffde59;
 }
 
 .main-grid {
@@ -106,15 +110,19 @@ nav {
   margin-top: 25px;
   margin-left: 50px;
   margin-right: 50px;
+  border-radius: 15px;
+  background-color: #36393f;
+  color: aliceblue;
+  transition: 0.5s color;
 }
 
 .card > h2:hover {
   transition: 0.3s;
-  color: red;
+  color: #ffde59;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgb(87, 27, 27);
+  box-shadow: 0 16px 32px 0 #8c52ff;
   animation: shake 0.3s;
 }
 
@@ -128,15 +136,15 @@ nav {
   20% {
     transform: translate(-2px, 0px) rotate(1deg);
   }
-  30% {
+  /* 30% {
     transform: translate(2px, 1px) rotate(0deg);
-  }
-  40% {
+  } */
+  /* 40% {
     transform: translate(1px, -1px) rotate(1deg);
-  }
-  70% {
+  } */
+  /* 70% {
     transform: translate(2px, 1px) rotate(-1deg);
-  }
+  } */
   80% {
     transform: translate(-1px, -1px) rotate(1deg);
   }
