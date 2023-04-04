@@ -18,10 +18,10 @@ export default function Home() {
           <div className="right">
             <Image
               className="multiclick"
-              src="./img/logo.png"
+              src="/logo.png"
               alt="Yayai Studios"
-              width="50px"
-              height="50px"
+              width={50}
+              height={50}
             />
           </div>
         </nav>
