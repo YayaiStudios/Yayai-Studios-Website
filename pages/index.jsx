@@ -28,7 +28,7 @@ export default function Home() {
         <main>
           <div className="main-grid">
             <h1 className="main-heading">
-              Here's whats going on at{" "}
+              Here&#39;s whats going on at{" "}
               <span className="name">YAYAI STUDIOS.</span>
             </h1>
             <div className="card">
