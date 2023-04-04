@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +16,7 @@ export default function Home() {
             <a href="contact.html">Contact</a>
           </div>
           <div className="right">
-            <img
+            <Image
               className="multiclick"
               src="./img/logo.png"
               alt="Yayai Studios"
