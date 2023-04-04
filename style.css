@@ -90,6 +90,9 @@ nav {
 .main-heading > .name {
   transition: 0.5s color;
   color: #8c52ff;
+
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
 }
 
 .name:hover {
